@@ -1,0 +1,43 @@
+:host {
+  padding: 1rem 2rem 1rem 2rem;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 4rem;
+}
+
+img {
+  transition: ease-in-out 0.3s;
+  width: 48px;
+  height: 48px;
+  filter: invert(1);
+}
+
+.image-container {
+  display: flex;
+  color: white;
+  align-items: center;
+  gap: 1rem;
+}
+
+.image-container:hover {
+  img {
+    transition: ease-in-out 0.3s;
+    filter: invert(84%) sepia(50%) saturate(834%) hue-rotate(2deg) brightness(107%) contrast(96%);
+  }
+
+  p {
+    transition: ease-in-out 0.3s;
+    color: #f8f005;
+  }
+}
+
+p {
+  transition: ease-in-out 0.3s;
+  margin: 0;
+  font-size: 36px;
+}

@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f005;
+  margin: 0;
+  padding: 0;
+}
